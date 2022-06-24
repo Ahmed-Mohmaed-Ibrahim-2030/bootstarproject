@@ -1,0 +1,68 @@
+#sec-La div[class~="card-body"]>a:hover {
+    color: RGB(13, 110, 253);
+}
+
+#sec-La div[class~="card"] img {
+    transition: all 500ms ease;
+    /*transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    */
+    -webkit-transition: all 500ms e;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+}
+
+#sec-La div[class~="card"] div[class="img"] {
+    overflow: hidden;
+}
+
+#sec-La div[class~="card"]:hover img {
+    max-width: 100% !important;
+    max-height: 100% !important;
+    transform: scale(1.1) rotate(-4deg);
+    -webkit-transform: scale(1.1) rotate(-4deg);
+    -moz-transform: scale(1.1) rotate(-4deg);
+    -ms-transform: scale(1.1) rotate(-4deg);
+    -o-transform: scale(1.1) rotate(-4deg);
+}
+
+#sec-La div[class~="card"]:hover ul {
+    background-color: RGB(13, 110, 253)!important;
+}
+
+#sec-La div[class~="card"]:hover div[role="progressbar"] {
+    width: 100% !important;
+}
+
+#sec-slider a:nth-child(2):hover {
+    background-color: RGB(13, 110, 253);
+    border-color: RGB(13, 110, 253) !important;
+}
+
+@media (min-width: 992px) {
+    #slider-btn {
+        bottom: 40%;
+        margin-right: 5% !important;
+    }
+    #sec-about ul {
+        position: absolute;
+        z-index: 10;
+        left: 50px;
+        top: 20px;
+        width: 26rem;
+        font-size: .8rem;
+    }
+    #sec-about div[id="about-card"] {
+        width: 70%;
+        margin-left: auto;
+        margin-right: 50px;
+        font-size: .8rem;
+    }
+    #sec-about div[id="about-card"] img {
+        height: 100%;
+    }
+    #sec-La ul {
+        height: 100%;
+    }
+}
